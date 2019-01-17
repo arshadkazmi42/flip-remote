@@ -1,6 +1,6 @@
 # flip-remote :key:
 
-This cli tool switches the https github remote url to ssh url inside git config.
+This cli tool switches the https remote url to ssh url inside git config.
 
 ## Install
 
