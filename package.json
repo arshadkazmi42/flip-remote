@@ -6,6 +6,9 @@
   "bin": {
     "flipremote": "index.js"
   },
+  "scripts": {
+    "test": "node index.js"
+  },
   "author": "Arshad Kazmi",
   "license": "MIT",
   "dependencies": {}
