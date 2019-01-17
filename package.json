@@ -1,0 +1,12 @@
+{
+  "name": "flip-remote",
+  "version": "1.0.0",
+  "description": "Flip git remote from https to ssh",
+  "main": "index.js",
+  "bin": {
+    "flipremote": "index.js"
+  },
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "dependencies": {}
+}
