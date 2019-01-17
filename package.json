@@ -11,5 +11,30 @@
   },
   "author": "Arshad Kazmi",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/flip-remote.git"
+  },
+  "keywords": [
+    "flip",
+    "flip-remote",
+    "https",
+    "ssh",
+    "github",
+    "gihub",
+    "remote",
+    "remote",
+    "url"
+  ],
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/flip-remote/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/flip-remote#readme"
 }
