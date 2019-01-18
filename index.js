@@ -24,7 +24,7 @@ const flip = async (currentPath) => {
       configContent = configContent.replace(constants.httpsPath, constants.sshPath);  
     } else if (sshPathRegex.test(configContent)) {
 
-      // Replace https url with ssh
+      // Replace ssh url with https
       configContent = configContent.replace(constants.sshPath, constants.httpsPath);
     } else {
 
