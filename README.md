@@ -20,7 +20,7 @@ $ npm i -g flip-remote
 $ flipremote
 
 // Output
-// Config flipped from https://github.com/ to git@github.com:
+// Github Remote Flipped
 ```
 
 ## Contributing
