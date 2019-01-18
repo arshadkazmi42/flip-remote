@@ -1,4 +1,4 @@
-# flip-remote :key:
+# flip-remote :octocat:
 
 This cli tool switches the https remote url to ssh url inside git config.
 
