@@ -1,5 +1,13 @@
 # flip-remote :octocat:
 
+[![Build](https://img.shields.io/travis/com/arshadkazmi42/flip-remote.svg)](https://travis-ci.com/arshadkazmi42/flip-remote/)
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote)
+[![LICENSE](https://img.shields.io/npm/l/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/LICENSE)
+[![NPM Downloads](https://img.shields.io/npm/dt/flip-remote.svg)](https://www.npmjs.com/package/flip-remote)
+[![NPM Version](https://img.shields.io/npm/v/flip-remote.svg)](https://www.npmjs.com/package/flip-remote)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/commits/master)
+
 This cli tool switches the https remote url to ssh url and vice versa inside git config.
 
 It loads the git config from `.git/config` and checks what type of remote url its using (https or ssh).
