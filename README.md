@@ -30,7 +30,7 @@ $ npm i -g flip-remote
 $ flipremote
 
 // Output
-// Github Remote Flipped
+// ✔ Github Remote Flipped
 ```
 
 ## Contributing
