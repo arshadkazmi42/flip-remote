@@ -24,7 +24,7 @@ $ npm i -g flip-remote
 
 ## Usage
 
-- Navigate to a root directory of any github repository in you local machine and run the belo command
+- Navigate to a root directory of any github repository in you local machine and run the below command
 
 ```javascript
 $ flipremote
