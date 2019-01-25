@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const logSymbols = require('log-symbols');
+
 const {
   constants,
   read,
@@ -29,7 +31,7 @@ const flip = async (currentPath) => {
     } else {
 
       // If does not contains either ssh/https path
-      console.log('Config does not contains remote');
+      console.log(logSymbols.info, 'Config does not contains remote');
       return;
     }
 
@@ -38,7 +40,7 @@ const flip = async (currentPath) => {
 
   } catch (err) {
 
-    console.log(err);
+    console.log(logSymbols.error, err);
   }
 }
 
