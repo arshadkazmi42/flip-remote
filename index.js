@@ -1,12 +1,10 @@
 #!/usr/bin/env node
 
 const logSymbols = require('log-symbols');
+const { readConf } = require('@gh-conf/gh-conf-read');
+const { writeConf } = require('@gh-conf/gh-conf-write');
 
-const {
-  constants,
-  read,
-  write
-} = require('./lib');
+const { GH_PATH } = require('@gh-conf/gh-conf-constants');
 
 
 const flip = async (currentPath) => {
@@ -14,20 +12,20 @@ const flip = async (currentPath) => {
   try {
 
     // Read config file content
-    let configContent = await read(currentPath);
+    let configContent = await readConf(currentPath);
 
-    const httpsPathRegex = new RegExp(constants.httpsPath, 'i');
-    const sshPathRegex = new RegExp(constants.sshPath, 'i');
+    const httpsPathRegex = new RegExp(GH_PATH.HTTPS_PATH, 'i');
+    const sshPathRegex = new RegExp(GH_PATH.SSH_PATH, 'i');
 
     // If it contains httpsPath
     if (httpsPathRegex.test(configContent)) {
 
       // Replace https url with ssh
-      configContent = configContent.replace(constants.httpsPath, constants.sshPath);  
+      configContent = configContent.replace(GH_PATH.HTTPS_PATH, GH_PATH.SSH_PATH);  
     } else if (sshPathRegex.test(configContent)) {
 
       // Replace ssh url with https
-      configContent = configContent.replace(constants.sshPath, constants.httpsPath);
+      configContent = configContent.replace(GH_PATH.SSH_PATH, GH_PATH.HTTPS_PATH);
     } else {
 
       // If does not contains either ssh/https path
@@ -36,7 +34,10 @@ const flip = async (currentPath) => {
     }
 
     // Writting updated config
-    await write(currentPath, configContent);
+    await writeConf(currentPath, configContent);
+
+    // Logging success message with a tick mark
+    console.log(logSymbols.success, 'Github Remote Flipped');
 
   } catch (err) {
 
