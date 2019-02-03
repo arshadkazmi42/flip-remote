@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@gh-conf/gh-conf-constants@^1.0.0":
+"@gh-conf/gh-conf-constants@^1.0.0", "@gh-conf/gh-conf-constants@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-constants/-/gh-conf-constants-1.0.1.tgz#4837e66d50b7dcbac626c1bf1abe56dc732abbb1"
   integrity sha512-YwcIGYz7XjSDXWx8It53DNJcmfa2COA+WK7i7vObC29B/DqEY0U8Nd0MLAk9N+bfUpzJrhnLlftNHyUHJp9+MA==
