@@ -8,11 +8,11 @@
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/commits/master)
 
-This cli tool switches the https remote url to ssh url and vice versa inside git config.
+This cli tool switches the http or https remote url to ssh url and vice versa inside git config.
 
-It loads the git config from `.git/config` and checks what type of remote url its using (https or ssh).
+It loads the git config from `.git/config` and checks what type of remote url its using (http, https or ssh).
 
-If its using, https it will switch it to ssh and if its using ssh it will change it to https. 
+If its using, http or https it will switch it to ssh and if its using ssh it will change it to https. 
 
 > Give us a :star: if you like our work :heart:
 
