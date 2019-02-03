@@ -14,7 +14,7 @@ const flip = async (currentPath) => {
     // Read config file content
     let configContent = await readConf(currentPath);
 
-    const httpsPathRegex = new RegExp('https?://github.com/', 'i');
+    const httpsPathRegex = new RegExp(GH_PATH.HTTP_REGEX_PATH, 'i');
     const sshPathRegex = new RegExp(GH_PATH.SSH_PATH, 'i');
 
     if (httpsPathRegex.test(configContent)) { // If it contains http or https path
