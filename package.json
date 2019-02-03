@@ -12,7 +12,7 @@
   "author": "Arshad Kazmi",
   "license": "MIT",
   "dependencies": {
-    "@gh-conf/gh-conf-constants": "^1.0.0",
+    "@gh-conf/gh-conf-constants": "^1.0.1",
     "@gh-conf/gh-conf-read": "^1.1.0",
     "@gh-conf/gh-conf-write": "^1.1.0",
     "log-symbols": "^2.2.0"
