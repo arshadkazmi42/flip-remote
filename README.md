@@ -14,6 +14,8 @@ It loads the git config from `.git/config` and checks what type of remote url it
 
 If its using, https it will switch it to ssh and if its using ssh it will change it to https. 
 
+> Give us a :star: if you like our work :heart:
+
 ## Install
 
 ```
