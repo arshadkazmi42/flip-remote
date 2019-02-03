@@ -14,11 +14,15 @@ const flip = async (currentPath) => {
     // Read config file content
     let configContent = await readConf(currentPath);
 
+    const httpPathRegex = new RegExp(GH_PATH.HTTP_PATH, 'i');
     const httpsPathRegex = new RegExp(GH_PATH.HTTPS_PATH, 'i');
     const sshPathRegex = new RegExp(GH_PATH.SSH_PATH, 'i');
 
-    // If it contains httpsPath
-    if (httpsPathRegex.test(configContent)) {
+    if (httpPathRegex.test(configContent)) { // If it contains httpPath
+
+      // Replace http url with ssh
+      configContent = configContent.replace(GH_PATH.HTTP_PATH, GH_PATH.SSH_PATH);
+    } else if (httpsPathRegex.test(configContent)) { // If it contains httpsPath
 
       // Replace https url with ssh
       configContent = configContent.replace(GH_PATH.HTTPS_PATH, GH_PATH.SSH_PATH);  
