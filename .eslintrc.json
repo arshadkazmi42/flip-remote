@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "arrowFunctions": true,
+    "ecmaFeatures": true,
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-cond-assign": ["error", "always"],
+    "no-console": "off"
+  }
+}

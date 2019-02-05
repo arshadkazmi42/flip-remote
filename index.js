@@ -42,7 +42,7 @@ const flip = async (currentPath) => {
 
     console.log(logSymbols.error, err);
   }
-}
+};
 
 
 // Triggering flip with current path
