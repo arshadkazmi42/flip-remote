@@ -14,8 +14,8 @@ const flip = async (currentPath) => {
     // Read config file content
     let configContent = await readConf(currentPath);
 
-    const httpsPathRegex = new RegExp(GH_PATH.HTTP_REGEX_PATH, 'i');
-    const sshPathRegex = new RegExp(GH_PATH.SSH_PATH, 'i');
+    const httpsPathRegex = new RegExp(GH_PATH.HTTP_REGEX_PATH, 'g');
+    const sshPathRegex = new RegExp(GH_PATH.SSH_PATH, 'g');
 
     if (httpsPathRegex.test(configContent)) { // If it contains http or https path
 
@@ -24,7 +24,7 @@ const flip = async (currentPath) => {
     } else if (sshPathRegex.test(configContent)) {
 
       // Replace ssh url with https
-      configContent = configContent.replace(GH_PATH.SSH_PATH, GH_PATH.HTTPS_PATH);
+      configContent = configContent.replace(sshPathRegex, GH_PATH.HTTPS_PATH);
     } else {
 
       // If does not contains either ssh/https path
