@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "pretest": "eslint --ignore-path .gitignore .",
-    "test": "node index.js"
+    "test": "node_modules/mocha/bin/mocha tests/*"
   },
   "author": "Arshad Kazmi",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "lib": "lib"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "eslint": "^5.11.1",
     "eslint-config-strongloop": "^2.1.0"
