@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/travis/com/arshadkazmi42/flip-remote.svg)](https://travis-ci.com/arshadkazmi42/flip-remote/)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote)
-[![LICENSE](https://img.shields.io/npm/l/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/LICENSE)
+[![LICENSE](https://img.shields.io/npm/l/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/blob/master/LICENSE)
 [![NPM Downloads](https://img.shields.io/npm/dt/flip-remote.svg)](https://www.npmjs.com/package/flip-remote)
 [![NPM Version](https://img.shields.io/npm/v/flip-remote.svg)](https://www.npmjs.com/package/flip-remote)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/flip-remote.svg)](https://github.com/arshadkazmi42/flip-remote/graphs/contributors)
