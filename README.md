@@ -42,9 +42,3 @@ We are constantly working on improving this library and we need all the help we 
 You can contribute to this project by giving [suggestions](https://github.com/arshadkazmi42/flip-remote/issues/new), fixing [open issues](https://github.com/arshadkazmi42/flip-remote/issues) or by implementing a new feature. 
 
 Read our contributing [guide](CONTRIBUTING.md) on getting started with contribution
-
-## Contributors
-
-Thank you to all the contributors who help in making this project better :raised_hands:
-
-<a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a><a href="https://github.com/michaelymo"><img src="https://github.com/michaelymo.png" width="30" /></a><a href="https://github.com/sugar-king"><img src="https://github.com/sugar-king.png" width="30" /></a><a href="https://github.com/neilr1"><img src="https://github.com/neilr1.png" width="30" /></a><a href="https://github.com/kozlovvski"><img src="https://github.com/kozlovvski.png" width="30" /></a>
