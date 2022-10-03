@@ -3,8 +3,8 @@ const { readConf } = require('@gh-conf/gh-conf-read');
 
 const { FlipRemote } = require('../lib');
 
-const httpsPathRegex = new RegExp('https://github.com/arshadkazmi42/flip-remote.git', 'g');
-const sshPathRegex = new RegExp('git@github.com:arshadkazmi42/flip-remote.git', 'g');
+const httpsPathRegex = new RegExp('https://github.com/arshadkazmi42/flip-remote', 'g');
+const sshPathRegex = new RegExp('git@github.com:arshadkazmi42/flip-remote', 'g');
 
 
 describe('validate flipremote', () => {
